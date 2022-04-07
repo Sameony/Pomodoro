@@ -16,7 +16,7 @@ export const LandingPage = () => {
             <span className="snippets mg-x-sm">meowmodoro!</span> The Solution
             which includes divide and conquer approach as well as cats!1
           </div>
-          <a href="/Templates/Introduction/introduction.html">
+          <a href="/Pomodoro">
             <button className="fs-lg  btn btn-primary mg-lg">
               Get Started
             </button>
@@ -26,7 +26,7 @@ export const LandingPage = () => {
             target="__blank"
             className="fs-lg btn btn-secondary basicLight mg-lg"
           >
-            Github<i className="mg-x-sm fab fa-github"></i>
+            <span className="disableMe">Github</span><i className="mg-x-sm fab fa-github"></i>
           </a>
         </div>
 

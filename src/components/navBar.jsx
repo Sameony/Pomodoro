@@ -9,8 +9,7 @@ export const NavBar = () => {
       <div className="rightNav mg-r-md">
         <a href="https://www.github.com/sameony/pomodoro" target="_blank">
           <div className="fs-xl fab fa-github" aria-hidden="true">
-            {" "}
-            Github{" "}
+            Github
           </div>
         </a>
       </div>

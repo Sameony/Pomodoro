@@ -27,7 +27,14 @@
   background-color: var(--success);
   color: var(--snow);
 }
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media only screen and (max-width: 860px) {
+  .rightNav {
+    display: block;
+  }
+  .rightBurger {
+    display: none;
+  }
+  .disableMe {
+    display: none;
+  }
 }
