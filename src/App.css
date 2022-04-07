@@ -1,8 +1,16 @@
 @import url("https://mirinda-mewi.netlify.app/styles/main.css");
+:root {
+  --primary: #ffa500;
+}
 .App {
   text-align: center;
 }
-
+.landingPage {
+  height: auto;
+}
+.navBar {
+  background-color: var(--primary);
+}
 .basicLight {
   background-color: var(--snow);
   color: var(--darc);
