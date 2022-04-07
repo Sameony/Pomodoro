@@ -1,38 +1,40 @@
+@import url("https://mirinda-mewi.netlify.app/styles/main.css");
+:root {
+  --primary: #ffa500;
+}
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.landingPage {
+  height: auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.navBar {
+  background-color: var(--primary);
+}
+.basicLight {
+  background-color: var(--snow);
+  color: var(--darc);
+}
+.basicDark {
+  background-color: var(--darc);
+  color: var(--snow);
+}
+.basicRed {
+  background-color: var(--caution);
+  color: var(--snow);
+}
+.basicGreen {
+  background-color: var(--success);
+  color: var(--snow);
+}
+@media only screen and (max-width: 860px) {
+  .rightNav {
+    display: block;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .rightBurger {
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+  .disableMe {
+    display: none;
   }
 }
